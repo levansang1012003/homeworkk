@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      //  Bài tập 1
+        function centuryCount() {
+            var sonamnhapvao = prompt("Mời bạn nhập số năm cần tìm: ");
+            if (sonamnhapvao != null) {
+                alert("Năm " + sonamnhapvao + " thuộc thế kỉ " + Math.ceil(sonamnhapvao / 100));
+            }
+        }
+        centuryCount()
+        //Bài tập 2
+        function noiChuoi() {
+            let hoVaTenDem = ["Xin" + "Chào" + "Mình" + "Tên" + "Là" ];
+            let ten ="LE VAN SANG";
+            let hoVaTen = hoVaTenDem.concat(" " + ten);
+            document.write(hoVaTen);
+        }
+        noiChuoi()
+    </script>
+    
+</body>
+</html>
